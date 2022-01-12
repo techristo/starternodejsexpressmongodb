@@ -1,7 +1,7 @@
 require('dotenv').config();
 var mongoose = require('mongoose');
 
-var uri = 'mongodb+srv://root:123@cluster0.ey1mm.mongodb.net/db?retryWrites=true&w=majority';
+var uri = 'URL';
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 var peopleSchema = new mongoose.Schema({
